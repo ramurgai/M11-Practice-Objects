@@ -62,7 +62,7 @@ function problem2() {
 
     // keep this if else block to help with overwriting the old size. 
     // You will need to have created a newSize variable with the use of a prompt.
-    newSize = prompt("Choose a new size")
+    let newSize = prompt("Choose a new size")
     
     if (newSize && newSize.trim() !== "") {
       smoothie.size = newSize.trim();
